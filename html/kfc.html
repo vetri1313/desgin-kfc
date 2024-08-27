@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title> kfc</title>
+    <style>
+        .taskbar {
+            display: flex;
+            justify-content: center;
+            border-style: solid;
+            border-color: black;
+            border-width: 2px;
+        }
+
+        .location {
+            background-color: rgb(20, 20, 20);
+            color: antiquewhite;
+            border-style: solid;
+            border-radius: 29px;
+            margin-left: 20px;
+            padding: 5px 32px;
+            height: 25px;
+            margin-top: 20px;
+
+
+
+        }
+
+        .kfc {
+            color: red;
+            font-style: italic;
+
+        }
+
+        .mainmenu {
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        .order {
+            background-color: black;
+            color: antiquewhite;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-style: solid;
+            border-color: black;
+            
+
+
+        }
+
+        .st {
+            background-color: red;
+            color: antiquewhite;
+            border-style: solid;
+            border-radius: 29px;
+            /* border-width: 1px; */
+            margin-left: 20px;
+            padding: 5px 32px;
+            /* width: 15%; */
+            text-align: center;
+        }
+
+
+
+        .st:hover {
+            background-color: chocolate;
+            color: rgb(7, 80, 0);
+        }
+
+        .types {
+
+            text-align: center
+        }
+
+        .foods {
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+        }
+
+        .offers {
+            background-color: rgb(44, 41, 41);
+            color: aliceblue;
+        }
+
+        .heading {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 50px;
+
+
+        }
+
+        .offerimage {
+            display: flex;
+            justify-content: space-around
+        }
+
+        .offer1 {
+            background-color: azure;
+            color: black;
+            width: 315px;
+            text-align: center;
+            border-style: solid;
+            border-radius: fit content;
+            border-color: gray;
+        }
+
+        .text {
+            color: red;
+            font-size: larger;
+
+        }
+
+        .del {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .view {
+            border-radius: 10px;
+            height: 50px;
+
+        }
+
+        td,
+        tr {
+            padding: 7px;
+        }
+
+        .about {
+            display: flex;
+            justify-content: center;
+            padding: 30;
+        }
+
+        ul,
+        li {
+            padding: 10px;
+        }
+
+
+
+
+        .end {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-around;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="taskbar">
+
+
+        <h3 class="content">📍 Location-map Allow Location Access For Local Store Menu And Promos</h3>
+
+
+
+        <button class="location">Set Location</button>
+
+
+    </div>
+
+
+    <div class="mainmenu">
+
+
+        <h1 class="kfc">KFC</h1>
+        <h3>Menu</h3>
+        <h3>Deals</h3>
+        <h3>sgin in</h3>
+        <h3>RS.0</h3>
+
+    </div>
+
+
+    <div class="order">
+
+        <div class="write">
+            <h2>LET'S ORDER FOR DELIVERY,PICK UP,OR DINE-IN</h2>
+        </div>
+
+        <div>
+            <button class="st"> Start order</button>
+        </div>
+
+    </div>
+    <div>
+        <img src="./images/Screenshot (3).png"alt="image">
+    </div>
+
+    <div class="types">
+        <h1>BROWSE CATEGORIES ____________________________</h1>
+
+    </div>
+
+    <div class="foods">
+
+        <div>
+            <img src="./images/food1.png"alt="image">
+            <P><B>RICE BOWLZ</B></P>
+        </div>
+
+
+        <div>
+            <img src="./images/food2.png"alt="image">
+            <p><b>VALUE LUNCH SPCIALS</b></p>
+        </div>
+
+        <div>
+            <img src="./images/food3.png"alt="image">
+            <p><b>INTERNAL BURGER FEST </b></p>
+        </div>
+
+        <div>
+            <img src="./images/food3.png"alt="image">
+            <p><b>MATCH DAY COMBOS</b></p>
+        </div>
+
+    </div>
+
+    <div class="foods">
+        <div>
+            <img src="./images/food5.png"alt="image">
+            <p><b> CHICKEN BUCKETS</b></p>
+        </div>
+        <div>
+            <img src="./images/food4.png"alt="image">
+            <p><b>MATCH DAY COMBOS</b></p>
+        </div>
+        <div>
+            <img src="./images/food6.png"alt="image">
+            <p><b>VALUE LUNCH SPECIALS</b></p>
+        </div>
+        <div>
+            <img src="./images/food7.png"alt="image">
+            <p><b> VIEW ALL MENU-</b></p>
+        </div>
+
+    </div>
+    <div class="offers">
+        <div class="heading">
+            <h1><b>EXCLSIVE OFFERS FOR YOU</b></h1>
+            <p>Views All Deals</p>
+        </div>
+
+        <div class="offerimage">
+            <div class="offer1">
+                <img src="./images/offer1.png"alt="image">
+                <p class="text"><b>UPTO RS 100 OFF O...</b></p>
+                <P>upto rs 100off on min cart value of rs 699 or more.applicableon 4th order onwords.. </P>
+                <div class="del">
+                    <p>View details</p>
+                    <button class="view">Apply offer</button>
+                </div>
+            </div>
+
+            <div class="offer1">
+                <img  src="./images/offer2.png"alt="image">
+                <p class="text"><b>ADD 2 PC HOT N...</b></p>
+                <P>add 2pc hot n crispy chicken at just rs 99 on min cart value of rs 499 or more...</P>
+                <div class="del">
+                    <p>View details</p>
+                    <button class="view">Apply offer</button>
+                </div>
+            </div>
+
+            <div class="offer1">
+                <img  src="./images/offer3.png"alt="image">
+                <p class="text"><b>GET FLAT RS.75 OF...</b></p>
+                <P>get flat rs75 off on a cart value o rs.599 or above</P>
+                <div class="del">
+                    <p>View details</p>
+                    <button class="view">Apply offer</button>
+                </div>
+            </div>
+
+        </div>
+
+        <br>
+        <hr>
+        <div class="about">
+            <ul>
+                <img  src="./images/KFC_Logo.svg" alt="">
+            </ul>
+            <ul>
+                <h4>KFC India</h4>
+                <h4>About KFC </h4>
+                <h4>KFC Care</h4>
+                <h4>Careers</h4>
+                <h4>Our Golden Past</h4>
+            </ul>
+            <ul>
+                <h4>Legal</h4>
+                <h4>Terms and Conditons</h4>
+                <h4>Privacy policy</h4>
+                <h4>Disclaimer</h4>
+                <h4>Caution Notice</h4>
+            </ul>
+            <ul>
+                <h4>KFC Food</h4>
+                <h4>Menu</h4>
+                <h4>Order Lookup</h4>
+                <h4>Gift Card</h4>
+                <h4>Nutrition & Allergen</h4>
+            </ul>
+            <ul>
+                <h4>Support</h4>
+                <h4>Get Help</h4>
+                <h4>Contact Us</h4>
+                <h4>KFC Feedback</h4>
+                <h4>Privacy Policy</h4>
+            </ul>
+            <ul>
+                <h4>📍Find a KFC</h4>
+            </ul>
+            <ul>
+                <img class="app" src="./images/play store  log.svg" alt=""></li>
+            </ul>
+            <ul>
+                <img class="app" src="./images/apple log.svg" alt=""></li>
+            </ul>
+        </div>
+        <div class="end">
+            <p>Copyright © KFC Corporation 2024 All rights reserved</p>
+            <p>Instagram |Facebook |Twitter </p>
+
+        </div>
+
+
+
+</body>
+
+</html>
